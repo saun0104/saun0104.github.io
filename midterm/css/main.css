@@ -1,0 +1,221 @@
+* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: ;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* LONE STARFISH CSS */
+
+body {
+	background-color: #AAD4CF;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+nav ul li a,
+nav ul li a:link,
+nav ul li a:visited {
+	background-color: #D4E9E7;
+}
+
+.navigation ul{ 
+	text-align: center;
+	padding-top: 0.4rem;
+	padding-bottom: 1.2rem;
+}
+
+.navigation ul li {
+	display: inline;
+	margin: 0 auto;
+	
+}
+
+.navigation ul li a {
+	text-decoration: none;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	color: black;
+	padding-left: 3.90rem;
+	padding-right: 3.90rem;
+	border-left: 0.5px solid black;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+background-color:darkcyan;
+color:white;}
+
+
+nav ul .no a {
+	border-left: none;
+}
+
+.container,
+.main {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.main {
+	background-color: #D4E9E7;
+}
+
+.lone-star {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1.5rem;
+	color: white;
+}
+
+.header {
+	width: 100%;
+}
+
+.star-small { 
+	position: relative;
+	margin-bottom: 1px;
+	width: 8.5rem;
+	padding-left: 0.40rem;
+	padding-right: 0.75rem;
+	padding-bottom: 0.95rem;
+	float: left;
+}
+
+.life {
+    font-size: 1.55rem;
+    padding-left: 0.5rem;
+}
+
+.content p {
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+	padding-right: 0.7rem;
+	padding-left: 0.35rem;
+}
+
+.facts {
+	padding-left: 0.35rem;
+	padding-top: 1rem;
+	padding-bottom: 0.6rem;
+	font-size: 1rem;
+}
+
+.facts-ls ul li{
+	font-size: 0.8rem;
+    margin: 0;
+    list-style-type: disc;
+}
+
+.contact-header {
+	padding-top: 0.8rem;
+	padding-bottom: 0.5rem;
+	padding-left: 0.35rem;
+	font-size: 1rem;
+}
+
+.contact {
+	width: 98%;
+	border: 0.5px solid black;
+	margin: 0 auto;
+	font-size: 0.8rem;
+}
+
+.form {
+ padding-left: 0.7rem;
+ padding-top: 1rem;
+}
+
+input[type=text] {
+	width: 98%;
+	margin: 8px 0;
+	display: block;
+}
+
+input[type=email] {
+	width: 98%;
+	margin: 8px 0;
+	display: block;
+}
+
+textarea {
+	width: 98%;
+	padding-bottom: 1.85rem;
+	margin: 8px 0;
+	display: block;
+	border: 0.5px solid gray;
+}
+
+.starfish {
+	font-size: 0.8rem;
+	padding-bottom: 1rem;
+}
+
+input[type=radio] {
+	font-size: 0.2rem;
+}
+
+button[type=submit] {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 0.6rem;
+	color: black;
+	background-color: #D4E9E7;
+	border-style: none;
+	border: 0.5px solid black;
+	text-transform: uppercase;
+	padding: 0.4rem;
+	font-weight: 100;
+}
+
+
+.footer {
+	text-align: right;
+	padding: 1.4rem;
+	font-size: 0.7rem;
+}

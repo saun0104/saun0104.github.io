@@ -5,10 +5,31 @@ body{
     background-image: url("../images/white_brick_wall.png");
 }
 
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
 /* 
 This is a CSS comment
 Shortcut for adding comment is Ctrl + /  
-*/
+*/.
+
+/* *,
+*:before,
+*:after {
+    box-sizing: inherit;
+} */
+
+/* h1:before {
+    content: "\02D2";
+    font-size: 2em;
+}
+
+h1:after {
+    content: "\02D3";
+    font-size: 2em;
+} */
 
 h1{
     color: brown;
@@ -30,17 +51,53 @@ h4{
 nav ul{
     list-style: none;
 }
+
+nav ul li {
+    display: inline-block;
+    width: 49%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
 nav ul a{
+    display: block;
     color: darkslategray;
     text-decoration: none;
 }
 
 /* selecting class name to style HTML element(s) */
 .orange-text{
+    padding: 1.5em;
+    width: 300px;
+    display: block;
     background: darkslategray;
     color: orange;
     text-decoration: none;
 }
+
+/* two coloumn layout using float */
+article,
+aside{
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid black;
+    padding: 1.5em;
+    width: 80%;
+    box-sizing: border-box;
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+
+aside{
+    width: 20%;
+}
+
+section {
+    clear: both;
+}
+
 /* selecting Id value for styling the element */
 #tow{
     /* color image repeat x-axis y-axis */
