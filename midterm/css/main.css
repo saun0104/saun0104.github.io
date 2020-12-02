@@ -62,25 +62,22 @@ nav ul li a:visited {
 	background-color: #D4E9E7;
 }
 
-.navigation ul{ 
+.navigation ul{
+	display: inline-block; 
 	text-align: center;
-	padding-top: 0.4rem;
-	padding-bottom: 1.2rem;
+	padding-left: 
 }
 
 .navigation ul li {
-	display: inline;
+	display: inline-block;
 	margin: 0 auto;
-	
-}
+	}
 
 .navigation ul li a {
 	text-decoration: none;
 	font-size: 1.5rem;
 	text-transform: uppercase;
 	color: black;
-	padding-left: 3.90rem;
-	padding-right: 3.90rem;
 	border-left: 0.5px solid black;
 }
 
@@ -96,8 +93,8 @@ nav ul .no a {
 
 .container,
 .main {
-	width: 85%;
-	margin: 0 auto;
+	max-width: 800px;
+	margin: auto;
 }
 
 .main {
@@ -105,10 +102,10 @@ nav ul .no a {
 }
 
 .lone-star {
-	position: absolute;
-	top: 33%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	position: relative;
+	float: left;
+	top: -8rem;
+	left: 16rem;
 	font-size: 1.5rem;
 	color: white;
 }
@@ -128,6 +125,7 @@ nav ul .no a {
 }
 
 .life {
+	text-align: left;
     font-size: 1.55rem;
     padding-left: 0.5rem;
 }
