@@ -49,7 +49,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* ---------CUSTOM CSS-----------*/
+
+
+/* ------CUSTOM CSS------*/
 
 
 /*------Mobile------*/
@@ -375,9 +377,9 @@ html{
     }
 
 
-    /* ----------------Desktop Styles------------------*/
+    /*------Desktop Styles------*/
 @media screen and (min-width: 760px){
-    /* navigation */
+    /*------Navigation------*/
     .navigation-grid{
         display: grid;
         grid-template-columns:repeat(8, 1fr);
