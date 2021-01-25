@@ -79,6 +79,7 @@
   align-content: center;
 
 /* Level 24 */
-  flex-flow: column-reverse wrap-reverse;
-  justify-content: center;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
   align-content: space-between;
+  justify-content: center;
