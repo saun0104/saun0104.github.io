@@ -1,0 +1,220 @@
+/* ---CSS RESET ---*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* --- MOBILE CSS ---*/
+
+/* Page font */
+html *{
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+/* Nav bar colour */
+#nav.nav {
+    background: rgb(65,93,67);
+    background: linear-gradient(0deg, rgba(65,93,67,1) 0%, rgba(17,29,19,1) 100%);
+    border: none;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    
+}
+
+/* Nav links positioning */
+.nav-link {
+    display: block;
+    text-align: left;
+    position: relative;
+}
+
+/* Link colours */
+a:link { 
+    color: white; 
+}
+a:visited { 
+    color: white;
+}
+a:hover { 
+    color: #EFC7C2; 
+}
+
+/* Home background colour and positioning */
+#home.home {
+    background: #FFE5D4;
+    padding: 30px;
+    text-align: left;
+}
+
+/* Home heading text size and positioning */
+#home h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Home text size */
+section p {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+/* About background colour */
+#about.about {
+    background: #BFD3C1;
+    padding: 25px;
+}
+
+/* About header text colour and positioning */
+#about h2 {
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+}
+
+/* About text colour and positioning */
+#about p {
+    color: black;
+    text-align: left;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+/* About image positioning */
+section .about-image {
+    position: relative;
+    width: 220px;
+    margin-right: -35px;
+}
+
+/* Contact background colour */
+#contact.contact {
+    background: #415D43;
+    padding: 10px;
+}
+
+/* Contact text and heading font size and positioning */
+#contact p, h2 {
+    padding: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    width: 417px;
+}
+
+/* Contact heading font and positioning */
+#contact h2 {
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+/* Contact form colour, box size and font size*/
+#contact.contact .contact-form {
+    background-color: #FFE5D4;
+    width: 85%;
+    font-weight: 200;
+}
+
+/* Footer size and positioning */
+footer p {
+    font-size: 15px;
+    text-align: center;
+}
+
+/* --- Desktop CSS --- */
+
+    @media screen and (min-width: 768px){
+
+/* Setting size and margins for desktop */
+html {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Nav bar size */
+#nav.nav {
+    width: 1140px;
+    height: 50px;
+}
+
+/* Nav links positioning */
+.nav-link {
+    position: relative;
+    display: inline;
+}
+
+/* About me image positioning */
+section .about-image {
+    position: relative;
+    bottom: 75px;
+    left: -25px;
+    width: 220px;
+}
+
+/* About me heading positioning */
+#about h2 {
+    position: relative;
+    padding-left: 480px;
+    padding-bottom: 15px;
+}
+
+/* Contact header positioning */
+#contact h2 {
+    width: 960px;
+    text-align: center;
+}
+
+/* Contact text positioning */
+#contact p {
+    text-align: left;
+    padding-top: 5px;
+    width: 1140px;
+}
+
+}

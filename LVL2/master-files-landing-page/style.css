@@ -1,0 +1,433 @@
+/* ---CSS RESET ---*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom CSS */
+
+/* Mobile Styles */
+
+/* Setting page font and background color */
+html *{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F7F7FF;
+}
+
+.logo-image {
+    width: 114px;
+    height: 81px;
+    padding-left: 35px;
+    padding-top: 25px;
+}
+
+.page-title {
+    font-size: 60px;
+    font-weight: 700;
+    color: #333131;
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+
+#home .start {
+    font-size: 24px;
+    padding-left: 35px;
+}
+
+.scooter-image{
+    padding-bottom: 20px;
+}
+
+.contact {
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    padding: 38px;
+    width: 70%;
+    height: 495px;
+    margin: auto;
+    margin-bottom: 45px; 
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
+}
+
+
+#contact h2, h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #333131;
+    background-color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+#contact p {
+    background-color: #FFFFFF;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+div {
+    background-color: #FFFFFF;
+}
+
+#fname, #lname, #email, #pnumber, textarea {
+    font-size: 16px;
+    border: none;
+    width: 83%;
+    height: 40px;
+    padding: 7.5px;
+    border-radius: 18px;
+    background: #F4F4F5;
+    margin: 10px;
+}
+
+#contact #agreebox {
+    margin-bottom: 15px;
+}
+
+label {
+    background-color: #FFFFFF;
+}
+
+#contact button {
+    width: 95%;
+    height: 55px;
+    border: none;
+    border-radius: 18px;
+    background-color: #57EEAB;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333131;
+    margin-bottom: 15px;
+}
+
+#contact h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333131;
+}
+
+mark.red {
+    font-weight: 400;
+    color:#FF8480;
+    background: none;
+}
+
+#footer-section div {
+    background-color: #FFFD8C;
+}
+
+#footer-section {
+    background-color: #FFFD8C;
+}
+
+#footer-section h2 {
+    width: 265px;
+    background-color: #FFFD8C;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333131;
+    padding-top: 15px;
+    padding-left: 33px;
+    padding-bottom: 15px;
+}
+
+#footer-section p { 
+    width: 302px;
+    background-color: #FFFD8C;
+    font-size: 16px;
+    color: #333131;
+    padding-left: 33px;
+    padding-bottom: 15px;
+}
+
+#hours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#hours-box, textarea{
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    width: 68px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 18px;
+    background: #F4F4F5;
+}
+
+#hours div{
+    padding-bottom: 10px;
+}
+
+#city-box, textarea {
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 18px;
+    background: #F4F4F5;
+    margin: auto;
+}
+
+#hours button {
+    width: 85%;
+    height: 55px;
+    border: none;
+    border-radius: 18px;
+    background-color: #FF8480;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.socials, .facebook-logo, .instagram-logo, .twitter-logo, .linkedin-logo{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFD8C;
+    padding-bottom: 10px;
+}
+
+.facebook-logo {
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.instagram-logo, .twitter-logo, .linkedin-logo {
+    padding: 10px;
+}
+
+
+/* Tablet Styles */
+
+@media (min-width: 768px) and (max-width: 1024px){
+    
+    .logo-image {
+        padding-left: 82px;
+    }
+
+    .page-title {
+        width: 604px;
+        padding-left: 82px;
+        padding-bottom: 20px;
+        font-size: 80px;
+    }
+
+    #home .start {
+        padding-left: 82px;
+        width: 604px;
+    }
+
+    .scooter-image {
+        display: flex;
+        justify-content: center;
+        width: 420px;
+        height: 307px;
+        padding-left: 174px;
+    }
+
+    .contact {
+        width: 605px;
+        height: 596px;
+        margin-left: 82px;
+    }
+
+    #contact h3 {
+        font-size: 30px;
+    }
+
+    #fname, #lname, #email, #pnumber, textarea {
+        font-size: 18px;
+        width: 525px;
+        height: 55px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    #contact button {
+        width: 600px;
+        font-size: 32px;
+    }
+
+    #contact p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    #footer-section h2 {
+        width: 608px;
+    }
+
+    #footer-section p {
+        width: 457px;
+    }
+
+    #hours-box, textarea {
+        width: 122px;
+    }
+
+    #city-box, textarea {
+        width: 300px;
+    }
+
+    #hours button {
+        width: 270px;
+    }
+
+    .socials {
+        padding-left: 250px;
+        padding-right: 250px;
+        justify-content: space-between;
+    }
+}
+
+/* Destop Styles */
+
+@media (min-width: 1024px) {
+    .logo-image {
+        padding-left: 140px;
+        padding-bottom: 5px;
+    }
+
+    #home {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .scooter-image {
+        width: 850px;
+        height: 600px;
+        padding-left: 100px;
+        padding-bottom: 21px;
+    }
+
+    .page-title {
+        font-size: 80px;
+        width: 530px;
+        position: absolute;
+        top: 160px;
+        left: 110px;
+        background: transparent;
+    }
+
+    .start {
+        width: 520px;
+        position: absolute;
+        top: 440px;
+        left: 110px;
+        background: transparent;
+    }
+
+    #contact {
+        width: 25%;
+        position: absolute;
+        right: 100px;
+    }
+
+    #footer-section {
+        padding-left: 140px;
+        padding-right: 140px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    #footer-section h2 {
+        width: 375px;
+    }
+
+    #footer-section p {
+        width: 465px;
+    }
+
+    #hours {
+        padding-left: 2px;
+        display: inline-flex;
+        flex-wrap: nowrap;
+    }
+
+    #hours-box, textarea {
+        width: 122px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    #city-box, textarea {
+        width: 300px;
+        margin-right: 25px;
+    }
+
+    #hours button {
+        width: 270px;
+    }
+
+    .socials{
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 600px;
+        margin-left: 700px;
+        position: relative;
+        bottom: 45px;
+        left: 600px;
+    }
+  
+    .facebook-logo{
+        border-radius: 0;
+        display: flex;
+        order: 3;
+    }
+    .linkedin-logo{
+        display: flex;
+        order: 4;
+    }
+}
