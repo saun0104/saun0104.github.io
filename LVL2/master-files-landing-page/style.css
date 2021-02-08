@@ -485,11 +485,9 @@ mark.red {
     /* Changing facebook and linkedin logo position */
     .facebook-logo{
         border-radius: 0;
-        display: flex;
         order: 3;
     }
     .linkedin-logo{
-        display: flex;
         order: 4;
     }
 }
