@@ -59,6 +59,7 @@ html *{
     background-color: #F7F7FF;
 }
 
+/* Logo resizing and positioning */
 .logo-image {
     width: 114px;
     height: 81px;
@@ -66,6 +67,7 @@ html *{
     padding-top: 25px;
 }
 
+/* Landing page welcome text font sizing, colouring and positioning */
 .page-title {
     font-size: 60px;
     font-weight: 700;
@@ -74,26 +76,33 @@ html *{
     padding-bottom: 10px;
 }
 
+
 #home .start {
     font-size: 24px;
     padding-left: 35px;
 }
 
+/* Scooter image positioning */
 .scooter-image{
     padding-bottom: 20px;
 }
 
+/* Apply now/contact form styling, sizing and positioning */
 .contact {
     border-radius: 25px;
     background-color: #FFFFFF;
-    padding: 38px;
+    padding: 35px;
     width: 70%;
-    height: 495px;
+    height: 500px;
     margin: auto;
     margin-bottom: 45px; 
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
 }
 
+/* Hiding desktop specific text */
+.desktop-enter {
+    display: none;
+}
 
 #contact h2, h3 {
     font-size: 40px;
@@ -113,6 +122,7 @@ div {
     background-color: #FFFFFF;
 }
 
+/* Form label styling, sizing and positioning */
 #fname, #lname, #email, #pnumber, textarea {
     font-size: 16px;
     border: none;
@@ -128,10 +138,16 @@ div {
     margin-bottom: 15px;
 }
 
+#agreebox {
+    margin-left: 15px;
+    border-radius: 20px;
+}
+
 label {
     background-color: #FFFFFF;
 }
 
+/* Drive with us button styling, sizing and positioning */
 #contact button {
     width: 95%;
     height: 55px;
@@ -150,12 +166,14 @@ label {
     color: #333131;
 }
 
+/* Marking specific text to Red */
 mark.red {
     font-weight: 400;
     color:#FF8480;
     background: none;
 }
 
+/* Setting Footer section colour */
 #footer-section div {
     background-color: #FFFD8C;
 }
@@ -164,6 +182,7 @@ mark.red {
     background-color: #FFFD8C;
 }
 
+/* Footer section header text styling, sizing and positioning */
 #footer-section h2 {
     width: 265px;
     background-color: #FFFD8C;
@@ -172,24 +191,27 @@ mark.red {
     color: #333131;
     padding-top: 15px;
     padding-left: 33px;
-    padding-bottom: 15px;
+    padding-bottom: 12px;
 }
 
+/* Footer section text styling, sizing and positioning */
 #footer-section p { 
     width: 302px;
     background-color: #FFFD8C;
     font-size: 16px;
     color: #333131;
     padding-left: 33px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
+/* Hours/city/calculate alignment */
 #hours {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
+/* Hours input field styling, sizing and positioning */
 #hours-box, textarea{
     font-size: 16px;
     font-weight: 600;
@@ -201,10 +223,7 @@ mark.red {
     background: #F4F4F5;
 }
 
-#hours div{
-    padding-bottom: 10px;
-}
-
+/* city input field styling, sizing and positioning */
 #city-box, textarea {
     font-size: 16px;
     font-weight: 600;
@@ -217,6 +236,7 @@ mark.red {
     margin: auto;
 }
 
+/* Caculate button styling, sizing and positioning */
 #hours button {
     width: 85%;
     height: 55px;
@@ -226,21 +246,22 @@ mark.red {
     font-size: 30px;
     font-weight: 700;
     color: #FFFFFF;
-    margin-bottom: 15px;
 }
 
+/* Social links Positioning */
 .socials, .facebook-logo, .instagram-logo, .twitter-logo, .linkedin-logo{
     display: flex;
     justify-content: space-around;
     background-color: #FFFD8C;
-    padding-bottom: 10px;
 }
 
+/* Facebook logo edit */
 .facebook-logo {
     padding: 10px;
     border-radius: 40px;
 }
 
+/* Specific social links positioning */
 .instagram-logo, .twitter-logo, .linkedin-logo {
     padding: 10px;
 }
@@ -250,10 +271,12 @@ mark.red {
 
 @media (min-width: 768px) and (max-width: 1024px){
     
+    /* Logo positioning */
     .logo-image {
         padding-left: 82px;
     }
 
+    /* Landing page welcome header sizing and positioning */
     .page-title {
         width: 604px;
         padding-left: 82px;
@@ -261,11 +284,13 @@ mark.red {
         font-size: 80px;
     }
 
+    /* Landing page welcome text sizing and positioning*/
     #home .start {
         padding-left: 82px;
         width: 604px;
     }
 
+    /* Scooter image sizing and positioning  */
     .scooter-image {
         display: flex;
         justify-content: center;
@@ -274,16 +299,19 @@ mark.red {
         padding-left: 174px;
     }
 
+    /* Apply now/contact box size adjustments */
     .contact {
         width: 605px;
         height: 596px;
         margin-left: 82px;
     }
 
+    /* Contact Header font resize */
     #contact h3 {
         font-size: 30px;
     }
 
+    /* Apply now/contact box text area & font resize */
     #fname, #lname, #email, #pnumber, textarea {
         font-size: 18px;
         width: 525px;
@@ -294,6 +322,7 @@ mark.red {
         font-size: 18px;
     }
 
+    /* Drive with us button and font resize */
     #contact button {
         width: 600px;
         font-size: 32px;
@@ -304,14 +333,17 @@ mark.red {
         text-align: center;
     }
 
+    /* Footer header text box resizing */
     #footer-section h2 {
         width: 608px;
     }
 
+    /* Footer body text box resizing */
     #footer-section p {
         width: 457px;
     }
 
+    /* Earnings calculator text area resizing */
     #hours-box, textarea {
         width: 122px;
     }
@@ -320,10 +352,12 @@ mark.red {
         width: 300px;
     }
 
+    /* Calculator button resizing */
     #hours button {
         width: 270px;
     }
 
+    /* Social links positioning */
     .socials {
         padding-left: 250px;
         padding-right: 250px;
@@ -334,17 +368,21 @@ mark.red {
 /* Destop Styles */
 
 @media (min-width: 1024px) {
+
+    /* Logo positioning */
     .logo-image {
         padding-left: 140px;
         padding-bottom: 5px;
     }
 
+    /* Aligning main page content horizontally */
     #home {
         display: flex;
         justify-content: space-around;
         flex-direction: row;
     }
 
+    /* Scooter image resizing and positioning */
     .scooter-image {
         width: 850px;
         height: 600px;
@@ -352,6 +390,7 @@ mark.red {
         padding-bottom: 21px;
     }
 
+    /* Landing page header text sizing and positioning */
     .page-title {
         font-size: 80px;
         width: 530px;
@@ -361,6 +400,7 @@ mark.red {
         background: transparent;
     }
 
+    /* Landing page body text positioning */
     .start {
         width: 520px;
         position: absolute;
@@ -369,12 +409,24 @@ mark.red {
         background: transparent;
     }
 
+    /* Hiding tablet and mobile specific text */
+    .tm-enter {
+        display: none;
+    }
+
+    /* Displaying Desktop specific text */
+    .desktop-enter {
+        display: flex;
+    }
+
+    /* Apply now/contact box sizing and position */
     #contact {
         width: 25%;
         position: absolute;
         right: 100px;
     }
 
+    /* Footer section positioning and sizing*/
     #footer-section {
         padding-left: 140px;
         padding-right: 140px;
@@ -390,12 +442,14 @@ mark.red {
         width: 465px;
     }
 
+    /* Earnings calculator alignment */
     #hours {
         padding-left: 2px;
         display: inline-flex;
         flex-wrap: nowrap;
     }
 
+    /* Earnings calculator sizing and positioning */
     #hours-box, textarea {
         width: 122px;
         margin-left: 25px;
@@ -407,10 +461,12 @@ mark.red {
         margin-right: 25px;
     }
 
+    /* Earnings calculator button sizing */
     #hours button {
         width: 270px;
     }
 
+    /* Socials alignment and positioning */
     .socials{
         display: flex;
         justify-content: space-evenly;
@@ -421,6 +477,7 @@ mark.red {
         left: 600px;
     }
   
+    /* Changing facebook and linkedin logo position */
     .facebook-logo{
         border-radius: 0;
         display: flex;

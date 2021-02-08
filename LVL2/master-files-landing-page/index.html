@@ -12,17 +12,24 @@
 </head>
 
 <body>
+    <!-- Header for logo  -->
     <header>
         <img class="logo-image" src="images/logo/logo.png" alt="D logo">
     </header>
+    <!-- Main for major content (Main landing page text) -->
     <main id="main" class="main">
         <section id="home" class="home">
             <h1 class="page-title">Want to be your own boss?</h1>
             <p class="start">Start today and make up to $30/hr driving your own vehicle with Dash!</p>
             <img class="scooter-image" src="images/bg-image/scooter.svg" alt="Lady on scooter">
+            <!-- Apply now/contact form section -->
             <section id="contact" class="contact">
               <h2 class="section-title">Apply Now</h2>
-              <h3>Enter your info below.</h3>
+              <!-- Mobile and Table specific text -->
+              <h3 class="tm-enter">Enter your info below.</h3>
+              <!-- Desktop specific text -->
+              <h3 class="desktop-enter">Enter your info below to get started.</h3>
+              <!-- Apply Now Form -->
               <form class="contact-form">
                 <div class="contact-form-section">
                   <label class="contact-form-label"></label>
@@ -45,6 +52,7 @@
                   <label for="agreebox">I agree to dash terms</label>
                 </div>
               </form>
+              <!-- Submit Button -->
                 <button type="submit">DRIVE WITH US</button>
               <p>Already applied? 
                   <mark class="red">Check your application status here</mark>
@@ -52,10 +60,13 @@
           </section>
         </section>
     </main>
+      <!-- Footer container for earning calculator and social links -->
       <footer>
         <div id="footer-section" class="footer-section">
+            <!-- Footer text -->
             <h2>See how much you can earn with Dash.</h2>
             <p>how many hours do you want to drive with us this week?</p>
+            <!-- Form to calculate possible earnings -->
             <div id="hours" class="hours">
               <div class="hours-form-section">
                 <label class="hours-form-label"></label>
@@ -65,8 +76,10 @@
                 <label class="hours-form-label"></label>
                 <input type="text" id="city-box" name="city" placeholder="City">
               </div>
+              <!-- Earnings calculator button -->
               <button type="submit">CALCULATE</button>
             </div>
+            <!-- Social Links -->
             <div class="socials">
               <img class="facebook-logo" src="images/icons/facebook.svg" alt="facebook">
               <img class="instagram-logo" src="images/icons/instagram.svg" alt="instagram">
