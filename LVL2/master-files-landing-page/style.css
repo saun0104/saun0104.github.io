@@ -217,7 +217,7 @@ mark.red {
     font-weight: 600;
     border: none;
     width: 68px;
-    height: 40px;
+    height: 38px;
     padding: 10px;
     border-radius: 18px;
     background: #F4F4F5;
@@ -229,7 +229,7 @@ mark.red {
     font-weight: 600;
     border: none;
     width: 250px;
-    height: 40px;
+    height: 38px;
     padding: 10px;
     border-radius: 18px;
     background: #F4F4F5;
@@ -270,7 +270,7 @@ mark.red {
 
 /* Tablet Styles */
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px) and (max-width: 1124px){
     
     /* Logo positioning */
     .logo-image {
@@ -303,7 +303,7 @@ mark.red {
     /* Apply now/contact box size adjustments */
     .contact {
         width: 605px;
-        height: 596px;
+        height: 72%;
         margin-left: 82px;
     }
 
@@ -315,7 +315,7 @@ mark.red {
     /* Apply now/contact box text area & font resize */
     #fname, #lname, #email, #pnumber, textarea {
         font-size: 18px;
-        width: 525px;
+        width: 100%;
         height: 55px;
     }
 
@@ -325,8 +325,7 @@ mark.red {
 
     /* Drive with us button and font resize */
     #contact button {
-        width: 600px;
-        font-size: 32px;
+        width: 100%;
     }
 
     #contact p {
@@ -335,6 +334,7 @@ mark.red {
     }
 
     /* Footer header text box resizing */
+    
     #footer-section h2 {
         width: 608px;
     }
@@ -346,7 +346,7 @@ mark.red {
 
     /* Earnings calculator text area resizing */
     #hours-box, textarea {
-        padding-bottom: 20px;
+        margin-left: 20px;
         width: 122px;
     }
 
@@ -356,6 +356,7 @@ mark.red {
 
     /* Calculator button resizing */
     #hours button {
+        margin: 0;
         width: 270px;
     }
 
@@ -370,7 +371,7 @@ mark.red {
 
 /* Destop Styles */
 
-@media (min-width: 1024px) {
+@media (min-width: 1124px) {
 
     /* Logo positioning */
     .logo-image {
