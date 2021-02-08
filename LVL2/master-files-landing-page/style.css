@@ -345,6 +345,7 @@ mark.red {
 
     /* Earnings calculator text area resizing */
     #hours-box, textarea {
+        padding-bottom: 20px;
         width: 122px;
     }
 
@@ -361,7 +362,8 @@ mark.red {
     .socials {
         padding-left: 250px;
         padding-right: 250px;
-        justify-content: space-between;
+        padding-bottom: 10px;
+        justify-content: space-around;
     }
 }
 
