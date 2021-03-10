@@ -48,7 +48,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* Custom CSS */
 
 /**********************************************/
@@ -952,22 +951,21 @@ footer {
 
     .wrapper {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 48% 15%;
+        padding-top: 60px;
     }
 
     .simon-container {
         grid-row: 1;
-        padding: 0px;
-        margin-top: -140px;
+        padding-top: 0px;
     }
 
     .simon {
-        width: 45%;
+        width: 200px;
     }
 
     .h3-container {
-        margin-top: -180px;
-        margin-bottom: 110px;
         grid-row: 2;
     }
 
@@ -1582,17 +1580,18 @@ footer {
 
     .wrapper {
         display: grid;
-        grid-template-columns: 20% 15% 80%;
+        grid-template-columns: 20% 12% 85%;
+        grid-template-rows: 250px;
     }
 
     .simon-container {
-        padding-left: 80px;
+        width: 325px;
+        padding-top: 30px;
+
     }
 
-  
-
     .simon:hover {
-        transform: scale(2.2);
+        transform: scale(1.3);
     }
 
     .simon-container {
@@ -1612,23 +1611,22 @@ footer {
 
     .h3-container {
         padding-top: 20px;
-        padding-right: 0px;
+        padding-left: 10%;
     }
 
     .grid-3 {
         padding-top: 40px;
-        width: 80%;
+        width: 85%;
     }
 
     #discover-3 p {
         font-size: 24px;
-        width: 91%;
     }
 
     .discover-grid4{
         display: grid;
         grid-template-columns: 52% 40%;
-        grid-template-rows: 65px 45px 227px;
+        grid-template-rows: 45px 35px 257px;
         padding-left: 120px;
         padding-bottom: 60px;
         padding-top: 50px;
@@ -1648,11 +1646,11 @@ footer {
     #discover-4 h2 {
         font-size: 40px;
         padding-left: 30px;
+        padding-top: 0px;
     }
 
     #discover-4 h3 {
         font-size: 32px;
-
     }
 
     .button-container5 {
@@ -1662,11 +1660,12 @@ footer {
 
     footer {
         height: 125px;
+        text-align: center;
     }
 
     .social-icons {
         display: inline;
-        padding-left: 46%;
+        padding-left: 5px;
     }
 
     .icons {
@@ -1913,21 +1912,13 @@ footer {
 
 
     /**********************************************/
-    /************* About page - Web  *************/
+    /************* Contact page - Web  *************/
     /********************************************/
-
-    #contact-1 h1 {
-        font-size: 72px;
-    }
-
-    #contact-1 p {
-        font-size: 24px;
-    }
 
     #contact-1 {
         display: grid;
-        grid-template-columns: 60% 30%;
-        grid-template-rows: 175px 80px 500px;
+        grid-template-columns: 60% 32%;
+        grid-template-rows: 190px 80px 500px;
         padding-top: 100px;
         padding-left: 80px;
     }
@@ -1935,13 +1926,16 @@ footer {
     #contact-1 h1 {
         grid-column: 1;
         grid-row: 1;
-        width: 87%;
+        font-size: 72px;
+        width: 85%;
+        padding-bottom: 20px;
     }
 
     #contact-1 p {
         grid-column: 1;
         grid-row: 2;
         width: 90%;
+        font-size: 24px;
     }
 
     .contact-image {
@@ -1954,7 +1948,9 @@ footer {
     #contact-box {
         grid-column: 2;
         grid-row: 1 / 3;
-        height: 750px;
+        height: 730px;
+        width: 100%x;
+        padding-right: 20px;
     }
 
     #fname, #student-number, #email {
@@ -1965,6 +1961,7 @@ footer {
 
     #message {
         height: 150px;
+        width: 95%;
     }
 
     #message::placeholder {
@@ -1972,8 +1969,8 @@ footer {
     }
 
     #contact-box h3 {
-        padding-bottom: 20px;
-        padding-top: 20px;
+        padding-bottom: 13px;
+        padding-top: 13px;
     }
 
     .contact-form-section {
@@ -1981,36 +1978,38 @@ footer {
     }
 
     .button-container4 {
-        padding-left: 190px;
+        justify-content: flex-end;
     }
 
     .submit-button {
         font-size: 40px;
-        width: 220px;
+        width: 200px;
         height: 60px;
     }
 
     #location {
         display: grid;
-        grid-template-columns: 48% 42%;
-        grid-template-rows: 90px 60px 350px;
+        grid-template-columns: 50% 43%;
+        grid-template-rows: 15% 12% 100px;
         padding-left: 80px;
         padding-top: 100px;
-        padding-bottom: 100px;
     }
 
     #location h1 {
         padding-top: 0px;
+        margin-bottom: 0px;
         grid-column: 1;
         grid-row: 1;
         font-size: 72px;
+        width: 100%;
     }
 
     #location h3 {
         font-size: 40px;
-        width: 100%;
+        width: 85%;
         grid-column: 1;
         grid-row: 2;
+        line-height: 2.5rem;
     }
 
     #location p {
@@ -2026,7 +2025,7 @@ footer {
     }
 
     .iframe:hover {
-        transform: scale(1.17);
+        transform: scale(1.05);
     }
 
 }
