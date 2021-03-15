@@ -58,16 +58,20 @@ table {
 /************ Home Page - Mobile  ************/
 /********************************************/
 
+
+/* Setting default fonts and background color */
 html {
     font-family: 'raleway', sans-serif;
     background-color: #FFFFFF;
 }
 
+/* logo sizing */
 .logo-image {
     width: 120px;
     height: 100px;
 }
 
+/* Navigation sizing, positioning and colors  */
 header {
     background-color: #3C3B3A;
     text-align: center;
@@ -79,17 +83,14 @@ ul li {
     padding: 11.5px;
 }
 
+
+/* nav link styles */
 a {
     color: #F2F2F2;
     text-decoration: none;
 }
   
 a:link {
-    color: #F2F2F2;
-    text-decoration: none;
-}
-  
-a:visited {
     color: #F2F2F2;
     text-decoration: none;
 }
@@ -102,6 +103,8 @@ a:hover {
 li.active {
     font-weight: bold;
 }
+
+/* discover-1 content styling, sizing and positioning */
 
 #discover-content h1 {
     font-size: 40px;
@@ -119,12 +122,12 @@ li.active {
     padding-bottom: 15px;
     color: #3C3B3A;
     width: 73%;
-    line-height: 2.1rem;
+    line-height: 2em;
 }
+/* discover icons sizing positioning and stling */
 
 .icon-wrapper {
-    width: 38px;
-    
+    width: 38px; 
 }
 
 #icons-area p {
@@ -154,6 +157,9 @@ li.active {
     padding-bottom: 10%;
 }
 
+/* setting up "get started" button */
+
+/* button positioning */
 .button-container1 {
     display: flex;
     justify-content: center;
@@ -161,14 +167,15 @@ li.active {
     padding-bottom: 30px;
 }
 
+/* button styling */
 .get-started {
     width: 80%;
     height: 55px;
     border: none; 
     border-radius: 30px;
     position: relative;
-    background-color: #7D70BA;0
     color: #F2F2F2;
+    background-color: #7D70BA;
     font-size: 32px;
     font-weight: bold;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .3);
@@ -176,10 +183,7 @@ li.active {
     transition: all 0.5s;
 }
 
-.get-started {
-    color: #F2F2F2;
-}
-
+/*"get started" button animation. Spacing letters apart, transforming background to purple  */
 .get-started:hover span {
     letter-spacing: 2px;
     transition: 1s;
@@ -208,21 +212,26 @@ li.active {
     transform: scale(0.1, 1);
 }
 
+/* Girl reading book image sizing and positioning */
 .discover-image {
     padding-left: 5%;
     padding-bottom: 30px;
     width: 90%;
 }
 
+/* hiding scroll down arrow */
 .scroll-down {
     display: none;
 }
 
+/*school image sizing, positioning */
 .school-image {
     object-fit: cover;
     width: 100%;
     height: 200px;
 }
+
+/* discover-2 content styling, sizing and positioning */
 
 #discover-2 h2 {
     color: #3C3B3A;
@@ -247,10 +256,11 @@ li.active {
     padding-left: 30px; 
     font-size: 16px;
     font-weight: 300;
-    line-height: 2.1rem;
+    line-height: 2em;
     padding-bottom: 20px;
 }
 
+/* setting up "learn more" button */
 .button-container2 {
     display: flex;
     justify-content: flex-end;
@@ -265,7 +275,7 @@ li.active {
     padding-right: 30px;
 }
 
-
+/* button styling */
 .learn-more {
     width: 45%;
     height: 50px;
@@ -280,10 +290,7 @@ li.active {
     z-index: 1;
     transition: all 0.5s;
 }
-
-..learn-more {
-    color: #F2F2F2;
-}
+/*"get started" button animation. Spacing letters apart, transforming background to purple  */
 
 .learn-more:hover span {
     letter-spacing: 2px;
@@ -313,24 +320,26 @@ li.active {
     transform: scale(0.1, 1);
 }
 
-
+/* setting background color for section */
 #discover-3 {
     background-color: #3C3B3A;
 }
 
+/* positioning simon image */
 .simon-container {
     padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+/* sizing simon image and adding border */
 .simon {
     width: 55%;
     border-radius: 50%;
     border: 5px solid #F2F2F2;
 }
 
+/* section content sizing, positioning and styling */
 .h3-container {
     display: flex;
     justify-content: center;
@@ -343,7 +352,7 @@ li.active {
     font-weight: 500;
     width: 190px;
     text-align: center;
-    line-height: 2rem;
+    line-height: 2em;
     padding-bottom: 20px;
 }
 
@@ -351,11 +360,13 @@ li.active {
     padding-left: 40px;
     padding-bottom: 40px;
     font-size: 16px;
-    line-height: 2.1rem;
+    line-height: 2em;
     color: #F2F2F2;
     font-weight: 300;
     width: 80%;
 }
+
+/* sizing and positioning entertainment image */
 
 .entertainment {
     object-fit: cover;
@@ -363,6 +374,7 @@ li.active {
     height: 200px;
 }
 
+/* Discover-4 conten sizing, positioning and styling */
 
 #discover-4 h2 {
     color: #3C3B3A;
@@ -387,14 +399,18 @@ li.active {
     padding-left: 30px; 
     font-size: 16px;
     font-weight: 300;
-    line-height: 2.1rem;
+    line-height: 2em;
     padding-bottom: 20px;
 }
+
+/* styling footer */
 
 footer {
     background-color: #3C3B3A;
     padding-bottom: 30px;
 }
+
+/* positioning and styling icons */
 
 .follow-us, .social-icons {
     display: flex;
@@ -416,6 +432,8 @@ footer {
     padding-left: 25%;
 }
 
+/* arrow up sizing, positioning and styling */
+
 .arrow-up{
     width: 25%;
 }
@@ -434,6 +452,8 @@ footer {
 /*********** About Page - Mobile  ************/
 /********************************************/
 
+/* sizing, positioning and stlying about page section 1 text content */
+
 #about-welcome h1 {
     width: 90%;
     font-size: 40px;
@@ -448,10 +468,12 @@ footer {
 #about-welcome p {
     padding-left: 30px;
     font-size: 20px;
-    line-height: 2.1rem;
+    line-height: 2em;
     width: 81%;
     padding-bottom: 15px;
 }
+
+/* sizing and positioning construction image */
 
 .construction {
     width: 85%;
@@ -459,6 +481,7 @@ footer {
     padding-bottom: 30px;
 }
 
+/* positioning and sizing about banner */
 .about-banner{
     position: relative;
     text-align: center;
@@ -468,6 +491,8 @@ footer {
     width: 100%;
     height: 200px;
 }
+
+/* Setting up transparent green overlay box */
 
 .green-box {
     width: 100%;
@@ -492,6 +517,8 @@ footer {
     color: #F2F2F2;
 }
 
+/* sizing, positioning and stlying about page section 2 text content  */
+
 #about-info {
     background-color: #F2F2F2;
 }
@@ -509,25 +536,33 @@ footer {
 #about-info p {
     color: #3C3B3A;
     font-size: 16px;
-    line-height: 2.1rem;
+    line-height: 2em;
     padding-left: 30px;
     padding-bottom: 15px;
     width: 80%;
 }
+
+/* positioning and sizing services banner */
 
 .services-banner{
     position: relative;
     text-align: center;
 }
 
+/* sizing and positioning services image */
+
 .services-image {
     width: 100%;
     height: 200px;
 }
 
+/*hiding images for mobile  */
+
 .bowling-image, .fitness-image, .bar-image, .rock-image {
     display: none;
 }
+
+/* sizing, positioning and stlying about page section 3 text content  */
 
 #services h2 {
     color: #3C3B3A;
@@ -549,27 +584,34 @@ footer {
 #services p {
     color: #3C3B3A;
     font-size: 15px;
-    line-height: 2.1rem;
+    line-height: 2em;
     padding-left: 30px;
     padding-bottom: 50px;
     width: 80%;
 }
 
+/* setting background for subscribe button area */
+
 #subscribe-banner {
     background-color: #3C3B3A;
 }
+
+/* text styling */
 
 #subscribe-banner h2 {
     color:#F2F2F2;
     font-size: 18px;
     font-weight: 500;
     padding-bottom: 20px;
+    text-align: center;
 }
 
-#grid-container2 {
+/* setting background for section */
+.grid-container2 {
     background-color: #F2F2F2;
 }
 
+/* centering subscribe button  */
 .button-container3 {
     display: flex;
     justify-content: center;
@@ -577,6 +619,7 @@ footer {
     padding-bottom: 30px;
 }
 
+/* styling subscribe button */
 .subscribe-button {
     width: 45%;
     height: 40px;
@@ -591,10 +634,8 @@ footer {
     transition: all 0.5s;
 }
 
-.subscribe-button {
-    color: #F2F2F2;
-}
 
+/* Setting up subscribe button animation, spacing letters and transforming background to purple on hover */
 .subscribe-button:hover span {
     letter-spacing: 2px;
     transition: 1s;
@@ -623,6 +664,8 @@ footer {
     transform: scale(0.1, 1);
 }
 
+/* Thanks area text styling, positioning and sizing */
+
 #thanks h1 {
     font-size: 56px;
     font-weight: bold;
@@ -633,6 +676,8 @@ footer {
     padding-bottom: 50px;
     padding-top: 30px;
 }
+
+/* Logos sizing, positioning */
 
 .sa-logo {
     display: block;
@@ -670,6 +715,8 @@ footer {
 /********** Contact Page - Mobile  ***********/
 /********************************************/
 
+/* styling sizing and positioning contact section text content */
+
 #contact-1 h1 {
     color: #3C3B3A;
     font-size: 50px;
@@ -685,10 +732,12 @@ footer {
     color: #3C3B3A;
     font-size: 20px;
     width: 80%;
-    line-height: 2.1rem;
+    line-height: 2em;
     padding-left: 30px;
     padding-bottom: 20px;
 }
+
+/* sizing and positioning contact image */
 
 .contact-image {
     width: 85%;
@@ -696,6 +745,7 @@ footer {
     padding-bottom: 30px;
 }
 
+/* creating contact form box */
 #contact-box {
     background-color: #26A682;
     border-radius: 25px;
@@ -705,6 +755,7 @@ footer {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
 }
 
+/* Sizing contact form text content */
 #contact-box h1 {
     color: #F2F2F2;
     font-size: 40px;
@@ -717,10 +768,12 @@ footer {
     padding-top: 10px;
 }
 
+/* positioning contact form */
 .contact-form {
     padding-left: 20px;
 }
 
+/* styling contact form text */
 #student-number, #fname, #email, #message {
     font-family: 'raleway', sans-serif;
     font-size: 16px;
@@ -729,12 +782,13 @@ footer {
     height: 38px;
     width: 90%;
     padding-left: 10px;
-
 }
 
 #message {
     height: 100px;
 }
+
+/* positioning Message place holder text */
 
 #message::placeholder {
     position: relative;
@@ -742,6 +796,7 @@ footer {
     left: 1%;
 }
 
+/* positioning submit button */
 .button-container4 {
     display: flex;
     justify-content: center;
@@ -750,6 +805,7 @@ footer {
     padding-top: 20px;
 }
 
+/* styling submit button */
 .submit-button {
     width: 90%;
     height: 45px;
@@ -765,6 +821,8 @@ footer {
     transition: all 0.5s;
 }
 
+
+/* submit button animation */
 .submit-button {
     color: #F2F2F2;
 }
@@ -797,6 +855,7 @@ footer {
     transform: scale(0.1, 1);
 }
 
+/* styling location text content */
 #location h1 {
     font-size: 40px;
     font-weight: bold;
@@ -819,12 +878,13 @@ footer {
 #location p {
     font-size: 16px;
     color: #3C3B3A;
-    line-height: 2.1rem;
+    line-height: 2em;
     width: 75%;
     padding-left: 30px;
     padding-bottom: 30px;
 }
 
+/* setting up map size */
  .iframe {
     height: 250px;
 }
@@ -842,17 +902,20 @@ footer {
      /*********** Home Page - Tablet  *************/
      /********************************************/
 
+     /* setting logo size and position */
      .logo-image {
         width: 50%;
-        padding-left: 40px;
+        margin-left: -600px;
         margin-top: -15px;
     } 
     
+    /* setting navigation size */
     header {
         height: 75px;
         padding: 0px;
     }
 
+    /* displaying nav links in line */
     nav ul {
         display: flex;
     }
@@ -864,18 +927,21 @@ footer {
 
     nav ul li a {
         display: block;
-        padding-left: 55px;
-    }
-
-    .nav-links {
-        padding-left: 25%;
-        padding-top: 25px;
+        padding: 25px;
     }
 
     ul li {
         padding: 0px;
     }
+
+    .navigation {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10px;
+        margin-top: -75px;
+    }
     
+    /* sizing discover text content */
     #discover h1 {
         padding-left: 60px;
         font-size: 72px;
@@ -889,6 +955,7 @@ footer {
        width: 78%;
     }
 
+    /* positioning icons */
     #icons-area {
         display: flex;
         justify-content: space-around;
@@ -896,6 +963,7 @@ footer {
         padding-bottom: 40px;
     }
 
+    /* positioning get started button */
     .button-container1{
         padding-bottom: 40px;
     }
@@ -906,11 +974,13 @@ footer {
         font-size: 40px;
     }
 
+    /* positioning discover image */
     .discover-image {
         width: 50%;
         padding-left: 25%;
     }
 
+    /* displaying scroll down button, rotating it to point down and positioning */
     .scroll-down {
         display: block;
         padding-left: 50%;
@@ -922,12 +992,14 @@ footer {
         transform: rotate(180deg);
     }
 
+    /* setting the position of school-image */
     .school-image {
         object-fit: cover;
         object-position: 0 75%;
         width: 100%;
     }
 
+    /* sizing and positioning discover-2 text content */
     #discover-2 h2 {
         font-size: 40px;
         padding-left: 60px;
@@ -944,11 +1016,13 @@ footer {
         width: 78%;
     }
 
+    /* setting learn-more button size and font size */
     .learn-more {
         font-size: 27px;
         width: 35%;
     }
 
+    /* creating grid */
     .wrapper {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -956,6 +1030,7 @@ footer {
         padding-top: 60px;
     }
 
+    /* positioning simon image in grid */
     .simon-container {
         grid-row: 1;
         padding-top: 0px;
@@ -965,6 +1040,7 @@ footer {
         width: 200px;
     }
 
+    /* positioning text content in grid */
     .h3-container {
         grid-row: 2;
     }
@@ -973,6 +1049,7 @@ footer {
         margin-top: 50px;
     }
 
+    /* sizing and positioning discover-3 text content */
     #discover-3 p {
         font-size: 24px;
         width: 100%;
@@ -994,6 +1071,7 @@ footer {
         padding-left: 60px; 
     }
     
+    /* positioning social icons */
     .social-icons {
         width: 25%;
         padding-left: 37.5%;
@@ -1004,6 +1082,7 @@ footer {
     /*********** About Page - Tablet  ************/
     /********************************************/
 
+    /* sizing and positioning about text content */
     #about-main h1 {
         font-size: 72px;
         width: 95%;
@@ -1012,6 +1091,7 @@ footer {
         padding-bottom: 20px;
     }
 
+    /* hidding mobile only content */
     .hidden-text {
         display: none;
     }
@@ -1023,6 +1103,7 @@ footer {
         width: 80.8%;
     }
 
+    /* sizing and positioning construction image */
     .construction {
         width: 75%;
         padding-left: 12%;
@@ -1039,10 +1120,12 @@ footer {
         font-size: 56px;
     }
 
+    /* setting background color for about section */
     #about-info {
         background-color: #F2F2F2;
     }
 
+    /* sizing and positioning about info text content */
     #about-info h2 {
         font-size: 40px;
         padding-left: 60px;
@@ -1055,6 +1138,7 @@ footer {
         padding-bottom: 50px;
     }
 
+    /* sizing and positioning bar image */
     .bar-image {
         display: flex;
         object-fit: cover;
@@ -1063,7 +1147,8 @@ footer {
         width: 218px;
     }
 
-    #grid-container1 {
+    /* setting up about grid */
+    .grid-container1 {
         display: grid;
         grid-template-columns: 32% 55.5%;
         grid-template-rows: 65px 45px 300px;
@@ -1072,31 +1157,33 @@ footer {
         padding-top: 50px;
     }
 
-    #grid-container1 .grid-item-1 {
+    /* placing about grid items for grid-1 */
+    .grid-container1 .grid-item-1 {
         grid-column: 1;
         grid-row: 1 / 3;
         justify-self: center;
         padding-top: 10px;
     }
 
-    #grid-container1 .grid-item-2 {
+    .grid-container1 .grid-item-2 {
         grid-column: 2;
         grid-row: 1 / 3;
         padding-top: 0px;
     }
 
-    #grid-container1 .grid-item-3 {
+    .grid-container1 .grid-item-3 {
         grid-column: 2;
         grid-row: 2 / 3;
         padding-top: 10px;
     }
 
-    #grid-container1 .grid-item-4 {
+    .grid-container1 .grid-item-4 {
         grid-column: 2;
         grid-row: 3 / 3;
         padding-top: 10px;
     }
 
+    /* sizing and positioning service section text content */
     #services h2 {
         font-size: 40px;
         padding-left: 10px;
@@ -1113,12 +1200,13 @@ footer {
         width: 100%;
     }
 
-    #grid-container2 {
+    /* placing about grid items for grid-2   */
+    .grid-container2 {
         background-color: #F2F2F2;
         padding-top: 40px;
     }
 
-    #grid-container2 {
+    .grid-container2 {
         display: grid;
         grid-template-columns: 56% 32%;
         grid-template-rows: 65px 45px 300px;
@@ -1135,38 +1223,40 @@ footer {
         padding-top: 10px;
     }
 
-    #grid-container2 .grid-item-8 {
+    /* placing grid-2 items */
+    .grid-container2 .grid-item-8 {
         grid-column: 2;
         grid-row: 1 / 3;
     }
 
-    #grid-container2 .grid-item-5 {
+    .grid-container2 .grid-item-5 {
         grid-column: 1;
-        grid-row: 1
+        grid-row: 1;
         width: 368px;
     }
 
-    #grid-container1 .grid-item-6 {
+    .grid-container1 .grid-item-6 {
         grid-column: 1;
-        grid-row: 2
+        grid-row: 2;
         width: 368px;
     }
 
-    #grid-container1 .grid-item-7 {
+    .grid-container1 .grid-item-7 {
         grid-column: 1;
         grid-row: 3;
         width: 368px;
     }
 
-    #grid-container2 h2 {
+    /* sizing and positioning grid container text content */
+    .grid-container2 h2 {
         font-size: 37px;
     }
 
-    #grid-container2 h3 {
+    .grid-container2 h3 {
         font-size: 32px;
     }
 
-    #grid-container2 p {
+    .grid-container2 p {
         font-size: 18px;
         width: 350px;
     }
@@ -1181,16 +1271,19 @@ footer {
         padding-top: 38px;
     }
 
+    /* positioning subscribe button */
     .button-container3 {
         padding-top: 25px;
         padding-left: 80px;
     }
 
+    /* sizing subscribe button */
     .subscribe-button {
         width: 150px;
         height: 45px;
     }
 
+    /* sizing and positioning images */
     .fitness-image {
         display: flex;
         object-fit: cover;
@@ -1209,6 +1302,7 @@ footer {
         padding-top: 10px;
     }
 
+    /* sizing and positioning thanks text content */
     #thanks h1 {
         font-size: 56px;
         width: 70%;
@@ -1216,6 +1310,7 @@ footer {
         padding-bottom: 50px;
     }
 
+    /* sizing and positioning logos */
     .sa-logo {
         width: 58%;
     }
@@ -1236,6 +1331,7 @@ footer {
     /********** Contact Page - Tablet  ***********/
     /********************************************/
 
+    /* sizing and positioning contact page text content */
     #contact-1 h1 {
         padding-top: 80px;
         padding-left: 60px;
@@ -1250,16 +1346,19 @@ footer {
         width: 78%;
     }
 
+    /* sizing and positioning contact image */
     .contact-image {
         width: 60%;
         padding-left: 18%;
     }
 
+    /* positioning contact form  */
     #contact-box {
         width: 80%;
         height: 800px;
     }
 
+    /* sizing contact form text content */
     #contact-box  h1 {
         font-size: 72px;
         padding-left: 35px;
@@ -1293,6 +1392,7 @@ footer {
         left: 0.1%;
     }
 
+    /* positioning submit button */
     .button-container4 {
         padding-left: 360px;
     }
@@ -1303,6 +1403,7 @@ footer {
         height: 65px;
     }
 
+    /* sizing and positioning location text content */
     #location h1 {
         padding-left: 60px;
         font-size: 72px;
@@ -1319,8 +1420,10 @@ footer {
         font-size: 18px;
     }
 
+    /* setting map size */
     .iframe {
         height: 500px;
+        width: 100%;
     }
 }
 
@@ -1335,38 +1438,20 @@ footer {
 /********************************************/
 
 
+    /* sizing and positioning logo image */
     .logo-image {
-        width: 50%;
         height: 75px;
-        margin-left: 120px;
+        margin-left: -300px;
+        padding-right: 60%;
     } 
-
-    .logo-image:hover {
-        animation: logo-grow 0.5s; 
-        animation-iteration-count: 1;
-        animation-timing-function: linear;
-        animation-timing-function: ease-in-out;
-    }
-
-    @keyframes logo-grow {
-        0% { transform: scale(1); }
-        10% { transform: scale(1.2); }
-        20% { transform: scale(1.4); }
-        30% { transform: scale(1.6); }
-        40% { transform: scale(1.8); }
-        50% { transform: scale(1.8); }
-        60% { transform: scale(1.8); }
-        70% { transform: scale(1.6); }
-        80% { transform: scale(1.4); }
-        90% { transform: scale(1.2); }
-        100% { transform: scale(1); }
-    }
     
+    /* sizing nav section header */
     header {
         height: 75px;
         padding: 0px;
     }
 
+    /* displaying, sizing and positioning nav links */
     nav ul {
         display: flex;
     }
@@ -1381,18 +1466,19 @@ footer {
         padding: 25px;
     }
 
-    .nav-links {
+    .navigation {
         display: flex;
         justify-content: flex-end;
-        margin: 0px;
-        padding-left: 60%;
+        padding-right: 150px;
+        margin-top: -75px;
     }
 
     ul li {
         padding: 0px;
     }
 
-    .nav-links a:hover {
+    /* nav link animations */
+    li a:hover {
         animation: links-grow 0.5s; 
         animation-iteration-count: 1;
         animation-timing-function: linear;
@@ -1413,6 +1499,7 @@ footer {
         100% { transform: scale(1); }
     }
 
+    /* sizing and positioning homepage text content */
     #index-main h1 {
         font-size: 72px;
         width: 90%;
@@ -1426,15 +1513,17 @@ footer {
         padding-left: 90px;
     }
 
+    /* creating homepage grid */
     .discover-grid {
         padding-top: 120px;
         padding-left: 80px;
         display: grid;
         grid-template-columns: 40% 60%;
-        grid-template-rows: 170px 160px 130px 150px;
+        grid-template-rows: 170px 200px 130px 150px;
         grid-column-gap: 60px;
     }
 
+    /* placing grid items */
     .discover-grid h1 {
         grid-column: 1;
         grid-row: 1;
@@ -1455,12 +1544,12 @@ footer {
         padding-left: 50px;
     }
 
+    /* positioning icons */
     .icon-wrapper {
         padding: 50px;
     }
 
- 
-
+    /* setting up icon animations */
     .bowl:hover, .rock:hover, .fit:hover, .bball:hover {
         animation: icon-grow 1 0.5s; 
         animation-iteration-count: 1;
@@ -1482,6 +1571,7 @@ footer {
         100% { transform: scale(1); }
     }
 
+    /* placing get started button in grid */
     .discover-grid .button-container1 {
         grid-column: 1;
         grid-row: 4;
@@ -1490,11 +1580,12 @@ footer {
         padding-top: 40px;
     }
 
-
+    /* sizing get started button */
     .get-started {
         width: 280px;
     }
 
+    /* placing discover image in grid*/
     .discover-grid .discover-image {
         grid-column: 2;
         grid-row: 1 / 4;
@@ -1504,6 +1595,7 @@ footer {
         width: 70%;
     }
 
+    /* displaying scroll down arrow and positioning */
     .scroll-down {
         display: block;
         padding-left: 50%;
@@ -1515,6 +1607,7 @@ footer {
         transform: rotateZ(180deg);
     }
 
+    /* setting up arrow down animation */
     .arrow-down:hover {
         animation-name: spin;
         animation-duration: 1s;
@@ -1526,6 +1619,7 @@ footer {
         0%{transform: rotate(360deg);}
     }
 
+    /* setting up discover-grid-2 grid */
     .discover-grid-2 {
         display: grid;
         grid-template-columns: 40% 52%;
@@ -1534,6 +1628,7 @@ footer {
         padding-bottom: 60px;
     }
     
+    /* placing items into grid */
     .discover-grid-2 .school-image {
         grid-column: 1;
         grid-row: 1 / 4;
@@ -1541,11 +1636,11 @@ footer {
 
     .school-image {
         object-fit: cover;
-        object-position: none;
         width: 100%;
         height: 337px;
     }
     
+    /* sizing discover-2 text content */
     #discover-2 h2 {
         font-size: 40px;
         padding-left: 30px;
@@ -1561,12 +1656,14 @@ footer {
         width: 98%;
     }
 
+    /* placing learn more button in grid */
     .button-container2 {
         grid-column: 2;
         grid-row: 4;
         margin-top: -50px;
     }
 
+    /* sizing learn more button */
     .learn-more {
         width: 38%;
         font-size: 27px;
@@ -1577,7 +1674,7 @@ footer {
         background-color: #F2F2F2;
     }
 
-
+    /* setting up simon area grid */
     .wrapper {
         display: grid;
         grid-template-columns: 20% 12% 85%;
@@ -1590,6 +1687,7 @@ footer {
 
     }
 
+    /* adding animation to simon image */
     .simon:hover {
         transform: scale(1.3);
     }
@@ -1623,6 +1721,7 @@ footer {
         font-size: 24px;
     }
 
+    /* setting up discover grid4 */
     .discover-grid4{
         display: grid;
         grid-template-columns: 52% 40%;
@@ -1632,6 +1731,7 @@ footer {
         padding-top: 50px;
     }
 
+    /* placing and positioning items on grid4 */
     .discover-grid4 .entertainment {
         grid-column: 2;
         grid-row: 1 / 4;
@@ -1653,16 +1753,19 @@ footer {
         font-size: 32px;
     }
 
+    /* psotioning learn more button */
     .button-container5 {
         grid-column: 1;
         margin-top: -55px;
     }
 
+    /* sizing and positioning footer items */
     footer {
         height: 125px;
         text-align: center;
     }
 
+    /* positioning social icons */
     .social-icons {
         display: inline;
         padding-left: 5px;
@@ -1676,6 +1779,7 @@ footer {
         width: 40px;
     }
 
+    /* creating arrow up animation */
     .arrow-up:hover {
         animation-name: spin;
         animation-duration: 2s;
@@ -1696,6 +1800,7 @@ footer {
     /************* About page - Web  *************/
     /********************************************/
 
+    /* creating grid for about page */
     #about-welcome {
         padding-top: 120px;
         padding-left: 80px;
@@ -1705,6 +1810,7 @@ footer {
         margin-left: 2%;
     }
 
+    /* placing content into about grid */
     #about-welcome h1 {
         grid-column: 1;
         grid-row: 1;
@@ -1737,14 +1843,17 @@ footer {
         height: 520px;
     }
 
+    /* setting background colour for about info section */
     #about-info {
         background-color: #F2F2F2;
     }
 
+    /* positioning about image */
     .about-image {
         object-fit: cover;
     }
 
+    /* creating grid for second about section */
     .about-grid {
         display: grid;
         grid-template-columns: 33% 33% 33%;
@@ -1755,6 +1864,7 @@ footer {
         padding-bottom: 160px;
     }
 
+    /* placing items on grid */
     .who {
         grid-column: 1;
         grid-row: 1;
@@ -1775,7 +1885,7 @@ footer {
         grid-row: 2;
     }
 
-
+    /*  positioning services images*/
     .services-image {
         object-fit: cover;
     }
@@ -1787,7 +1897,8 @@ footer {
         width: 100%;
     }
 
-    #grid-container1 {
+    /* creating grid for 3rd section of about page */
+    .grid-container1 {
         display: grid;
         grid-template-columns: 48% 48%;
         grid-template-rows: 65px 30px 300px;
@@ -1796,6 +1907,7 @@ footer {
         column-gap: 10px;
     }
 
+    /* placing grid items */
     .grid-item-1 {
         grid-column: 1;
         grid-row: 1 / 3;
@@ -1817,7 +1929,8 @@ footer {
         width: 95.5%;
     }
 
-    #grid-container2 {
+    /* creating crid for grid-container2 */
+    .grid-container2 {
         display: grid;
         grid-template-columns: 48% 48%;
         grid-template-rows: 65px 30px 300px;
@@ -1826,6 +1939,7 @@ footer {
         column-gap: 10px;
     }
 
+    /* placing items into grid */
     .grid-item-5 {
         grid-column: 1;
         grid-row: 1;
@@ -1855,15 +1969,18 @@ footer {
        padding-left: 24%;
     }
 
+    /* positioning subscribe button */
     .button-container3{
         padding-top: 22px;
         padding-left: 30px;
     }
 
+    /* sizing subscribe button */
     .subscribe-button {
         width: 230px;
     }
 
+    /* sizing and positioning thanks text content */
     #thanks h1 {
         font-size: 72px;
         padding-top: 100px;
@@ -1871,17 +1988,20 @@ footer {
         width: 35%;
     }
 
+    /* positioning logos */
     .logo-container {
         display: flex;
         padding-bottom: 70px;
     }
 
 
+    /* sizing logos */
     .sa-logo {
         width: 435px;
         height: 125px;
     }
 
+    /* creating logos animation */
     .sa-logo:hover, .ac-logo:hover, .pcl-logo:hover, .cibc-logo:hover {
         animation: bounce 1s;
         animation-iteration-count: 1;
@@ -1893,8 +2013,9 @@ footer {
         30%  { transform: translateY(-80px); }
         50%  { transform: translateY(0); }
         100% { transform: translateY(0); }
-      }
+    }
 
+    /* sizing logos */
     .ac-logo{
         width: 202px;
         height: 168px;
@@ -1915,14 +2036,16 @@ footer {
     /************* Contact page - Web  *************/
     /********************************************/
 
+    /* creating contact section grid */
     #contact-1 {
         display: grid;
         grid-template-columns: 60% 32%;
-        grid-template-rows: 190px 80px 500px;
+        grid-template-rows: 160px 110px 500px;
         padding-top: 100px;
         padding-left: 80px;
     }
 
+    /* placing items into grid */
     #contact-1 h1 {
         grid-column: 1;
         grid-row: 1;
@@ -1949,10 +2072,11 @@ footer {
         grid-column: 2;
         grid-row: 1 / 3;
         height: 730px;
-        width: 100%x;
+        width: 100%;
         padding-right: 20px;
     }
 
+    /* sizing contact form label text */
     #fname, #student-number, #email {
         height: 50px;
         border-radius: 25px;
@@ -1973,10 +2097,12 @@ footer {
         padding-top: 13px;
     }
 
+    /* positioning contact form sections */
     .contact-form-section {
         padding-left: 10px;
     }
 
+    /* poositioning submit button */
     .button-container4 {
         justify-content: flex-end;
     }
@@ -1987,6 +2113,7 @@ footer {
         height: 60px;
     }
 
+    /* creating location section grid */
     #location {
         display: grid;
         grid-template-columns: 50% 43%;
@@ -1995,6 +2122,7 @@ footer {
         padding-top: 100px;
     }
 
+    /* placing items into grid */
     #location h1 {
         padding-top: 0px;
         margin-bottom: 0px;
@@ -2018,16 +2146,16 @@ footer {
         font-size: 18px;
     }
 
+    /* sizing map size */
     .iframe {
         grid-column: 2;
         grid-row: 1 / 3;
         height: 500px;
     }
 
+    /* creating grow animation on map */
     .iframe:hover {
         transform: scale(1.05);
     }
 
 }
-
-  
