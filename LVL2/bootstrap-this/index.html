@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Bootstrap This!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light fw-bolder" href="#">Bootstrap This!</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Jump to a section!
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#grid">Grid</a></li>
+                <li><a class="dropdown-item" href="#buttons">Buttons</a></li>
+                <li><a class="dropdown-item" href="#typography">Typography</a></li>
+                <li><a class="dropdown-item" href="#borders">Borders</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container py-5 ">
+      <div class="row">
+        <div class="col-sm pt-5">
+          <h1 class="display-2">The Power of Bootstrap!</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <p>Originally created by and for Twitter, Bootstrap became open source in 2011. Bootstrap allows designers and developers to create websites quickly. Bootstrap is responsive by design and it also offers consistent design. It's easy to use and quick to learn. But most importantly it is a powerful toolkit that allows the developers to focus on well... developing, without having to worry about design.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h2>So how does it work?</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <p>Well, it's really quite simple. You can download Bootstrap to get the complied CSS, JavaScript, and source code. Or as we've been learning you can simply copy and paste their starter template from their website into your .html file. Once the starter template is in your .html file, it's linked to Bootstraps' .css stylesheet giving us all their default settings.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-light py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h2 id="grid">Grid</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-7 pb-3 py-3">
+            <p>Bootstrap uses the mobile first approach to their layouts using flexbox grid. It uses a twelve column system and is fully responsive. The grid supports 6 breakpoints, allowing the developer to control the container and column sizing behaviour by each breakpoint. Because they use the mobile first approach the breakpoints are based on min-width media queries which means they affect the breakpoint and all others above it.</p>
+            <a class="btn btn-success shadow" href="https://getbootstrap.com/docs/5.0/layout/grid/" target="_blank">Learn More!</a>
+          </div>
+          <div class="col-sm-4">
+            <ul class="list-group">
+              <li class="list-group-item fw-bold fs-4">Default Grid Tiers</li>
+              <li class="list-group-item">Extra small (xs)</li>
+              <li class="list-group-item">Small (sm)</li>
+              <li class="list-group-item">Medium (md)</li>
+              <li class="list-group-item">Large (lg)</li>
+              <li class="list-group-item">Extra large (xl)</li>
+              <li class="list-group-item">Extra extra large (xxl)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h2 id="buttons">Buttons</h2>
+          </div>
+          <div class="row">
+            <div class="col-sm-7 py-3">
+              <p>Bootstrap offers many custom ready to go button styles. From outlines, sizes, opacities and more. With the class system bootstrap has in place it's very easy to style your buttons with a few simple inputs. Here are a few examples of some different button stylings.</p>
+              <a class="btn btn-success shadow" href="https://getbootstrap.com/docs/5.0/components/buttons/" target="_blank">Learn More!</a>
+            </div>
+            <div class="col-sm-5">
+              <button type="button" class="btn btn-primary">Default</button>
+              <button type="button" class="btn btn-outline-danger">Outline</button>
+              <button type="button" class="btn btn-info btn-lg">Large</button>
+              <button type="button" class="btn btn-warning btn-sm">Small</button>
+              <button type="button" class="btn btn-lg btn-dark" disabled>Disabled</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-4 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h2 id="typography">Typography</h2>
+          </div>
+          <div class="row">
+            <div class="col-sm-7 py-3">
+              <p>Bootstrap wants the developer to be able to focus on producing quick, clean and styled responsive websites. It does this by giving us a default of stylized content. We don't have to worry about going into the CSS and changing all of our fonts. Of course we can still add custom fonts and styles to our hearts content, but with bootstrap we can put our main focus on making sure our websites work the way we intend first. The default font is "Helvetica Neue", Helvetica, Arial, sans-serif. We can also take advantage of the class system and easily add heading tags to paragraph tags and other heading tags. Here is a great example of that, the following lines are all p tags, set with h classes provided by bootstrap to match the font styling of a heading.</p>
+              <a class="btn btn-success shadow" href="https://getbootstrap.com/docs/5.0/content/typography/" target="_blank">Learn More!</a>
+            </div>
+            <div class="col-sm-5">
+              <p class="h1">h1. Paragraph in disguise.</p>
+              <p class="h2">h2. Paragraph in disguise.</p>
+              <p class="h3">h3. Paragraph in disguise.</p>
+              <p class="h4">h4. Paragraph in disguise.</p>
+              <p class="h5">h5. Paragraph in disguise.</p>
+              <p class="h6">h6. Paragraph in disguise.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h2 id="borders">Borders</h2>
+          </div>
+          <div class="row">
+            <div class="col-sm-7 py-3">
+              <p>It's so incredibly easy and intuitive to add borders to elements with Bootstrap. From adding borders to just one side or taking them away. Styling them with colours, setting widths, radiuses and sizes. All of this done without even having to open the .css file. Here are a few examples of what you can do with do with borders.</p>
+              <a class="btn btn-success shadow" href="https://getbootstrap.com/docs/5.0/utilities/borders/" target="_blank">Learn More!</a>
+            </div>
+            <div class="col-sm-5">
+              <h6>Circle border</h6>
+              <img src="https://dummyimage.com/60/b8b8b8/0000006" class="rounded-circle px-1" alt="...">
+              <h6>Thick border</h6>
+              <img src="https://dummyimage.com/60/b8b8b8/0000006" class="border border-5" alt="...">
+              <h6>Thick, coloured, rounded border</h6>
+              <img src="https://dummyimage.com/60/b8b8b8/0000006" class="border border-5 border-success rounded-3" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container py-3">
+      <div class="alert alert-primary shadow" role="alert">
+        <p class="text-center">This is just the tip of the iceberg! There's so much more to learn. Visit <a href="http://www.getbootstrap.com" target="_blank">www.getbootstrap.com</a> to see how powerful this toolkit really is.</p>
+      </div>
+    </div>
+    <nav class="navbar bottom navbar-dark bg-dark py-4">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">Back to the top</a>
+      </div>
+    </nav>
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </body>
+</html>
