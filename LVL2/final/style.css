@@ -60,11 +60,12 @@ html {
 	color: #F3E8EE;
 }
 
-
+/* hiding link underlines */
 .menu a:link{
 	text-decoration: none;
 }
 
+/* setting menu styles */
 .menu{
     font-size: 50px;
     font-weight: 900;
@@ -78,7 +79,7 @@ html {
 	width: 80%;
 }
 
-
+/* positioning menu items */
 .container-2 {
     position: absolute;
     display: flex;
@@ -130,10 +131,12 @@ div.about, .work, .contact {
 	font-size: 60px;
 }
 
+/* setting up menu link animations */
+
 span{
     transform: translateY(50px);
     opacity: 0;
-    animation-name: titleanimation;
+    animation-name: menuitems;
     animation-timing-function:ease;
     animation-duration: 3s;
 	animation-iteration-count: 1;
@@ -147,15 +150,8 @@ span{
 .work span{ animation-delay: 1s }
 .contact span{ animation-delay: 1.5s }
 
-@keyframes titleanimation {
-	0% {
-	  opacity: 0;
-	}
-	100% {
-	  opacity: 1;
-	}
-}
 
+/* setting up mobile button animation */
 
 .mobile-button{
 	animation-name: slidein;
@@ -164,33 +160,7 @@ span{
 	animation-iteration-count: 1;
 }
 
-@keyframes slidein {
-	0% {
-	transform:translateX(2000px);
-	}
-
-	80% {
-    transform:translateX(0px);
-	}
-
-	85% {
-	transform:translateX(20px);
-	}
-
-	90% {
-    transform:translateX(0px);
-	}
-
-	95% {
-	transform:translateX(10px);
-	}
-
-	100% {
-	transform:translateX(0px);
-	}
-}
-
-
+/* setting styles for visited links */
 
 .about-2:visited {
 	color: #DB504A;
@@ -204,6 +174,7 @@ span{
 	color: #F3E8EE;
 }
 
+/* styling mobile button */
 
 .mobile-button {
 	font-size: 30px;
@@ -218,6 +189,7 @@ span{
 	border-radius: 50px;
 }
 
+/* sizing and positioning self image */
 
 .nathan{
 	position: fixed;
@@ -228,6 +200,7 @@ span{
 
 /* about Mobile */
 
+/* sizing and positioning logo */
 
 .logo {
 	width: 120px;
@@ -238,6 +211,8 @@ span{
 .container {
 padding-bottom: 90px;
 }
+
+/* styling sizing and positioning about page headers, paragraphs and links */
 
 .about-grid h1 {
 	text-decoration: none;
@@ -280,6 +255,7 @@ padding-bottom: 90px;
 }
 
 
+/* sizing styling and positioning work page header */
 .work-container h1 {
 	width: 90%;
 	text-decoration: none;
@@ -290,6 +266,7 @@ padding-bottom: 90px;
 	padding-left: 4%;
 }
 
+/* styling project links */
 .work-container a {
 	text-decoration: none;
 	color: #F9C22E;
@@ -299,6 +276,7 @@ padding-bottom: 90px;
 
 /* Contact Page - Mobile */
 
+/* sizing positioning and styling contact heading and paragraphs */
 .contact-grid h1 {
 	text-decoration: none;
     font-size: 60px;
@@ -324,6 +302,8 @@ padding-bottom: 90px;
 	line-height: 4rem;
 	padding-left: 5%;
 }
+
+/* styling social links */
 
 .socials a{
 	color: #DB504A;
@@ -381,11 +361,12 @@ padding-bottom: 90px;
 	}
 
 	.work-container a{
-	padding-left: 200px;
+		padding-left: 200px;
 	}
 
 	/* Contact Page */
 
+	/* sizing and positioning headings and paragraphs*/
 	.contact-grid h1{
 		padding-top: 60px;
 		padding-left: 200px;
@@ -408,6 +389,7 @@ padding-bottom: 90px;
 
 	/* Home Screen */
 
+	/* setting font size for menu items */
 	.container-2 span{
 		font-size: 60px;
 	}
@@ -417,16 +399,21 @@ padding-bottom: 90px;
 		padding-left: 30%;
 	}
 
+	/* sizing and positioning Self image */
 	.nathan {
 		width: 950px;
 		left: 50%;
 	}
+
+	/* hiding mobile button */
 
 	.mobile-button{
 		display: none;
 	}
 
 	/* About Page */
+
+	/* positioning and sizing */
 
 	.about-grid h1{
 		padding-top: 100px;
@@ -448,6 +435,7 @@ padding-bottom: 90px;
 
 	/* Work Page */
 	
+	/* positioning and sizing */
 	.logo {
 		padding-left: 900px;
 	}
@@ -462,6 +450,7 @@ padding-bottom: 90px;
 
 	/* Contact Page */
 
+	/* positioning and sizing */
 
 	.contact-grid h1{
 		padding-top: 60px;
@@ -477,4 +466,45 @@ padding-bottom: 90px;
 		padding-left: 200px;
 	}
 
+}
+
+/* Keyframes for animations */
+
+/* menu item animation */
+
+@keyframes menuitems {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+}
+
+/* mobile button animation */
+
+@keyframes slidein {
+	0% {
+	transform:translateX(2000px);
+	}
+
+	80% {
+    transform:translateX(0px);
+	}
+
+	85% {
+	transform:translateX(20px);
+	}
+
+	90% {
+    transform:translateX(0px);
+	}
+
+	95% {
+	transform:translateX(10px);
+	}
+
+	100% {
+	transform:translateX(0px);
+	}
 }
