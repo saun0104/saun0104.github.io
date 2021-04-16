@@ -60,15 +60,17 @@ html {
 	color: #F3E8EE;
 }
 
-/* setting fonts and styling */
-h1 a {
-    text-decoration: none;
+
+.menu a:link{
+	text-decoration: none;
+}
+
+.menu{
     font-size: 50px;
     font-weight: 900;
 	line-height: 3rem;
 }
 
-/* positioning text/links */
 .about, .work, .contact  {
 	margin-top: 60px;
 	margin-bottom: 60px;
@@ -76,21 +78,6 @@ h1 a {
 	width: 80%;
 }
 
-/* setting Hi. font colour */
-.about span {
-	color: #DB504A;
-}
-
-.work span {
-	color: #F3E8EE;
-}
-
-.contact span {
-	color: #F3E8EE;
-}
-
-
-/* sizing and positioning */
 
 .container-2 {
     position: absolute;
@@ -152,7 +139,7 @@ span{
 	animation-iteration-count: 1;
 }
 
-h1 span{
+.menu span{
 	animation-fill-mode: forwards;
 }
 
@@ -163,7 +150,6 @@ h1 span{
 @keyframes titleanimation {
 	0% {
 	  opacity: 0;
-	  size: 0px;
 	}
 	100% {
 	  opacity: 1;
@@ -354,7 +340,7 @@ padding-bottom: 90px;
 
 /* TABLET STYLING */
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 700px) and (max-width: 1024px){
 
 	/* Homepage */
 
